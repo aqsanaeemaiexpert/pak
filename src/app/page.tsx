@@ -1,7 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 
-const page = () => {
+
+export default function Home()  {
   return
   <div><figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
   <Image className="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/aqsa-pic.jpeg" alt="" width="384" height="512"/>
@@ -25,6 +26,4 @@ const page = () => {
 </figure></div>
 }
 
-
-export default page
 
